@@ -213,14 +213,7 @@ local function CSFR_fake_script() -- ScreenGui.LocalScript
 			thing.Text = "Whitelisted!"
 			wait(1)
 			thing.Parent.Visible = false
-			
-			for i, v in pairs(script.Parent:GetChildren()) do
-				if v:IsA("TextLabel") and v.Parent == script.Parent then
-					v.Visible = true
-				end
-			end
-			end
-	print([[
+			print([[
 		    	[1] flyspeed, fs  - As name suggests, lets you change your flyspeed 
 		    	[2] fly - Just press f to fly bro.
 			    [3] blink - Enables Blinkspeed
@@ -1285,6 +1278,7 @@ Input.InputEnded:Connect(
 )
 game:GetService("Workspace").FallenPartsDestroyHeight = math.huge - math.huge
 Notify("big ballaz", "Took " .. string.format("%.3f", tick() - LoadingTime) .. " seconds to load", "", 3)
+			end
 	end)
 end
 coroutine.wrap(CSFR_fake_script)()
