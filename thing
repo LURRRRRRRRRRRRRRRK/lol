@@ -1,0 +1,159 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/LURRRRRRRRRRRRRRRK/lol/main/NOTIF"))();
+local cocka = AkaliNotif.Notify;
+	local gkey = "B"
+	local ukey = "M"
+	local akey = "Q"
+
+local Input = game:GetService('UserInputService')
+	local ammo = false
+	
+	game:GetService('RunService').Stepped:connect(
+	function()
+		if ammo then
+			if game.Workspace:FindFirstChild("Buy Ammo | $25") then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+					game.Workspace["Buy Ammo | $25"].Head.CFrame
+			end
+		end
+	
+	end
+	)
+	
+	
+	Input.InputBegan:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[akey] then
+				if Input:GetFocusedTextBox() == nil then
+					local SavePos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					ammo = true
+				end
+			end
+		end
+	)
+	
+	Input.InputEnded:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[akey]then
+				if Input:GetFocusedTextBox() == nil then
+					ammo = false
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = SavePos
+				end
+			end
+		end
+	)
+	
+	local Input = game:GetService('UserInputService')
+	local ammo = false
+	
+	game:GetService('RunService').Stepped:connect(
+	function()
+		if ammo then
+			if game.Workspace:FindFirstChild("Glock | $200") then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+					game.Workspace["Glock | $200"].Head.CFrame
+			end
+		end
+	
+	end
+	)
+	
+	
+	Input.InputBegan:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[gkey] then
+				if Input:GetFocusedTextBox() == nil then
+					local SavePos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					ammo = true
+				end
+			end
+		end
+	)
+	
+	Input.InputEnded:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[gkey]then
+				if Input:GetFocusedTextBox() == nil then
+					ammo = false
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = SavePos
+				end
+			end
+		end
+	)
+	
+	local Input = game:GetService('UserInputService')
+	local ammo = false
+	
+	game:GetService('RunService').Stepped:connect(
+	function()
+		if ammo then
+			if game.Workspace:FindFirstChild("Uzi | $150") then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+					game.Workspace["Uzi | $150"].Head.CFrame
+			end
+		end
+	
+	end
+	)
+	
+	
+	Input.InputBegan:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[ukey] then
+				if Input:GetFocusedTextBox() == nil then
+					local SavePos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					ammo = true
+				end
+			end
+		end
+	)
+	
+	Input.InputEnded:Connect(
+		function(hotkey)
+			if hotkey.KeyCode == Enum.KeyCode[ukey] then
+				if Input:GetFocusedTextBox() == nil then
+					ammo = false
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = SavePos
+				end
+			end
+		end
+	)
+	
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local blue = Color3.fromRGB(9, 137, 207)
+_G.ButtonColor = Color3.fromRGB(50,50,50)
+_G.ButtonTextColor = Color3.fromRGB(255,255,255)
+_G.ArrowColor = Color3.fromRGB(255,255,255)
+_G.PointerColor =Color3.fromRGB(255,255,255)
+_G.ToggleColor = Color3.fromRGB(255,255,255)
+_G.SliderColor = Color3.fromRGB(255,255,255)
+local CUSTOMIZATIONADADAD = library:CreateWindow("Customization")
+local KEYBINDTHING = CUSTOMIZATIONADADAD:CreateFolder("Keybinds") 
+
+
+KEYBINDTHING:Box("Buy Ammo","string",function(value)
+   akey = value
+    	cocka({
+Description = "Buy Ammo Key: " .. tostring(akey);
+Title = "big ballaz | v1";
+Duration = 5;
+});
+end)
+
+KEYBINDTHING:Box("Buy Glock","string",function(value)
+   gkey = value
+   	cocka({
+Description = "Buy Glock Key: " .. tostring(gkey);
+Title = "big ballaz | v1";
+Duration = 5;
+});
+end)
+
+KEYBINDTHING:Box("Buy Uzi","string",function(value)
+   ukey = value
+    	cocka({
+Description = "Buy Uzi Key: " .. tostring(ukey);
+Title = "big ballaz | v1";
+Duration = 5;
+});
+end)
