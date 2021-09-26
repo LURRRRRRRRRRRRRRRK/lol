@@ -26,7 +26,7 @@ local function Round2px()
 	local NewImage = Image("http://www.roblox.com/asset/?id=5761488251");
 	NewImage.ScaleType = Enum.ScaleType.Slice;
 	NewImage.SliceCenter = Rect.new(2, 2, 298, 298);
-	NewImage.ImageColor3 = Color3.fromRGB(30, 30, 30);
+	NewImage.ImageColor3 = Color3.fromRGB(9, 137, 207);
 	return NewImage;
 end
 
@@ -213,3 +213,5 @@ return {
 		end
 	end,
 }
+
+
