@@ -122,6 +122,9 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aika
 
 local blue = Color3.fromRGB(9, 137, 207)
 _G.ButtonColor = blue
+_G.BindColor = Color3.fromRGB(255,255,255)
+_G.MainTextColor = Color3.fromRGB(255,255,255)
+_G.ButtonTextColor = blue
 _G.MainColor = blue
 _G.SecondaryColor = blue
 _G.TertiaryColor = blue
