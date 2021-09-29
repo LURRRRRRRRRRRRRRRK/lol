@@ -1,5 +1,56 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/LURRRRRRRRRRRRRRRK/lol/main/NOTIF"))();
 local cocka = AkaliNotif.Notify;
+
+   local Balls = Window:NewTab("Player ESP")
+    local ESPSection = Balls:NewSection("ESP For Players")
+
+
+
+--230, 35, 69
+
+
+
+local colors = {
+    SchemeColor = Color3.fromRGB(40,40,40),
+    Background = Color3.fromRGB(13, 15, 12),
+    Header = Color3.fromRGB(16, 18, 15),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Big Ballaz", colors)
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+--[[MainSection:NewButton("Fall Bypass", "Bypasses fall damage", function()
+game:GetService("ReplicatedStorage").Events.fall:Destroy()
+
+end)]]
+
+ 
+   -- PLAYER
+   
+   local Balls = Window:NewTab("Player ESP")
+    local ESPSection = Balls:NewSection("ESP For Players")
+
+
+
+ESPSection:NewToggle("Kiriot ESP", "ESP's Players using the KIRIOT ESP", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+
+local Binds = Window:NewTab("KeyBinds")
+    local BindsSection = Binds:NewSection("Keybinds")
+    
+    
+    
+    
 	local gkey = "B"
 	local ukey = "M"
 	local akey = "Q"
@@ -117,49 +168,31 @@ local Input = game:GetService('UserInputService')
 			end
 		end
 	)
-	
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+    
 
-local blue = Color3.fromRGB(9, 137, 207)
-_G.ButtonColor = blue
-_G.BindColor = Color3.fromRGB(255,255,255)
-_G.MainTextColor = Color3.fromRGB(255,255,255)
-_G.ButtonTextColor = blue
-_G.MainColor = blue
-_G.SecondaryColor = blue
-_G.TertiaryColor = blue
-_G.ButtonTextColor = Color3.fromRGB(255,255,255)
-_G.ArrowColor = Color3.fromRGB(255,255,255)
-_G.PointerColor =Color3.fromRGB(255,255,255)
-_G.ToggleColor = Color3.fromRGB(255,255,255)
-_G.SliderColor = Color3.fromRGB(255,255,255)
-local CUSTOMIZATIONADADAD = library:CreateWindow("Customization")
-local KEYBINDTHING = CUSTOMIZATIONADADAD:CreateFolder("Keybinds") 
-
-
-KEYBINDTHING:Box("Buy Ammo","string",function(value)
-   akey = value
-    	cocka({
-Description = "Buy Ammo Key: " .. tostring(akey);
-Title = "big ballaz | v1";
-Duration = 5;
-});
+BindsSection:NewTextBox("Buy Uzi Key", "Changes your Buy Uzi Key", function(txt)
+	ukey = txt
+		cocka({
+		Description = "Buy Uzi Key: " .. ukey ;
+	Title = "big ballaz | v4.1";
+	Duration = 5;
+	});
 end)
 
-KEYBINDTHING:Box("Buy Glock","string",function(value)
-   gkey = value
-   	cocka({
-Description = "Buy Glock Key: " .. tostring(gkey);
-Title = "big ballaz | v1";
-Duration = 5;
-});
+BindsSection:NewTextBox("Buy Ammo Key", "Changes your Buy Ammo Key", function(txt)
+     akey = txt
+     	cocka({
+		Description = "Buy Ammo Key: " .. akey ;
+	Title = "big ballaz | v4.1";
+	Duration = 5;
+	});
 end)
 
-KEYBINDTHING:Box("Buy Uzi","string",function(value)
-   ukey = value
-    	cocka({
-Description = "Buy Uzi Key: " .. tostring(ukey);
-Title = "big ballaz | v1";
-Duration = 5;
-});
+BindsSection:NewTextBox("Buy Glock Key", "Changes your Buy Glock Key", function(txt)
+ gkey = txt
+ 	cocka({
+		Description = "Buy Glock Key: " .. gkey ;
+	Title = "big ballaz | v4.1";
+	Duration = 5;
+	});
 end)
