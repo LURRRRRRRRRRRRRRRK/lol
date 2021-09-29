@@ -1,9 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/LURRRRRRRRRRRRRRRK/lol/main/NOTIF"))();
 local cocka = AkaliNotif.Notify;
 
-   local Balls = Window:NewTab("Player ESP")
-    local ESPSection = Balls:NewSection("ESP For Players")
-
+  
 
 
 --230, 35, 69
