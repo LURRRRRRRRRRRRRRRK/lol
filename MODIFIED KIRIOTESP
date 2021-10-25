@@ -1,4 +1,11 @@
 --Settings--
+
+--[[
+
+credits to kiriot for this esp its so sexy and i did not make it at fucking all lol
+
+]]
+
 local ESP = {
     Enabled = false,
     Boxes = true,
