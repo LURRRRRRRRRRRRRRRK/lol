@@ -1,5 +1,5 @@
 local CmdsLOL = Instance.new("ScreenGui")
-CmdsLOL.Enabled = false
+CmdsLOL.Enabled = true
 local MainBack = Instance.new("Frame")
 local Top = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
