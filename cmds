@@ -1,0 +1,1168 @@
+local CmdsLOL = Instance.new("ScreenGui")
+CmdsLOL.Enabled = false
+local MainBack = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Underline = Instance.new("Frame")
+local X = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local Frame_8 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local Frame_9 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local Frame_10 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local Frame_11 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local Frame_12 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local Frame_13 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local Frame_14 = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local Frame_15 = Instance.new("Frame")
+local TextLabel_17 = Instance.new("TextLabel")
+local Frame_16 = Instance.new("Frame")
+local TextLabel_18 = Instance.new("TextLabel")
+local Frame_17 = Instance.new("Frame")
+local TextLabel_19 = Instance.new("TextLabel")
+local Frame_18 = Instance.new("Frame")
+local TextLabel_20 = Instance.new("TextLabel")
+local Frame_19 = Instance.new("Frame")
+local TextLabel_21 = Instance.new("TextLabel")
+local Frame_20 = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local Frame_21 = Instance.new("Frame")
+local TextLabel_23 = Instance.new("TextLabel")
+local Frame_22 = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local Frame_23 = Instance.new("Frame")
+local TextLabel_25 = Instance.new("TextLabel")
+local Frame_24 = Instance.new("Frame")
+local TextLabel_26 = Instance.new("TextLabel")
+local Frame_25 = Instance.new("Frame")
+local TextLabel_27 = Instance.new("TextLabel")
+local Frame_26 = Instance.new("Frame")
+local TextLabel_28 = Instance.new("TextLabel")
+local Frame_27 = Instance.new("Frame")
+local TextLabel_29 = Instance.new("TextLabel")
+local Frame_28 = Instance.new("Frame")
+local TextLabel_30 = Instance.new("TextLabel")
+local Frame_29 = Instance.new("Frame")
+local TextLabel_31 = Instance.new("TextLabel")
+local Frame_30 = Instance.new("Frame")
+local TextLabel_32 = Instance.new("TextLabel")
+local Frame_31 = Instance.new("Frame")
+local TextLabel_33 = Instance.new("TextLabel")
+local Frame_32 = Instance.new("Frame")
+local TextLabel_34 = Instance.new("TextLabel")
+local Frame_33 = Instance.new("Frame")
+local TextLabel_35 = Instance.new("TextLabel")
+local Frame_34 = Instance.new("Frame")
+local TextLabel_36 = Instance.new("TextLabel")
+local Frame_35 = Instance.new("Frame")
+local TextLabel_37 = Instance.new("TextLabel")
+local Frame_36 = Instance.new("Frame")
+local TextLabel_38 = Instance.new("TextLabel")
+local Frame_37 = Instance.new("Frame")
+local TextLabel_39 = Instance.new("TextLabel")
+local Frame_38 = Instance.new("Frame")
+local TextLabel_40 = Instance.new("TextLabel")
+local Frame_39 = Instance.new("Frame")
+local TextLabel_41 = Instance.new("TextLabel")
+local Frame_40 = Instance.new("Frame")
+local TextLabel_42 = Instance.new("TextLabel")
+local Frame_41 = Instance.new("Frame")
+local TextLabel_43 = Instance.new("TextLabel")
+local Frame_42 = Instance.new("Frame")
+local TextLabel_44 = Instance.new("TextLabel")
+local Frame_43 = Instance.new("Frame")
+local TextLabel_45 = Instance.new("TextLabel")
+local Frame_44 = Instance.new("Frame")
+local TextLabel_46 = Instance.new("TextLabel")
+local Frame_45 = Instance.new("Frame")
+local TextLabel_47 = Instance.new("TextLabel")
+local Frame_46 = Instance.new("Frame")
+local TextLabel_48 = Instance.new("TextLabel")
+local Frame_47 = Instance.new("Frame")
+local TextLabel_49 = Instance.new("TextLabel")
+local Frame_48 = Instance.new("Frame")
+local TextLabel_50 = Instance.new("TextLabel")
+local Frame_49 = Instance.new("Frame")
+local TextLabel_51 = Instance.new("TextLabel")
+local Frame_50 = Instance.new("Frame")
+local TextLabel_52 = Instance.new("TextLabel")
+local Frame_51 = Instance.new("Frame")
+
+
+CmdsLOL.Name = "CmdsLOL"
+CmdsLOL.Parent = game.CoreGui
+CmdsLOL.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainBack.Name = "MainBack"
+MainBack.Parent = CmdsLOL
+MainBack.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+MainBack.BackgroundTransparency = 0.500
+MainBack.Position = UDim2.new(0.143699348, 0, 0.156138256, 0)
+MainBack.Size = UDim2.new(0, 180, 0, 311)
+
+Top.Name = "Top"
+Top.Parent = MainBack
+Top.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Top.BackgroundTransparency = 0.500
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 180, 0, 45)
+
+TextLabel.Parent = Top
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0388888903, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 70, 0, 35)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Commands"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+TextLabel.TextStrokeTransparency = 0.000
+
+Underline.Name = "Underline"
+Underline.Parent = Top
+Underline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Underline.BorderSizePixel = 0
+Underline.Position = UDim2.new(0, 0, 0.777777791, 0)
+Underline.Size = UDim2.new(0, 180, 0, 1)
+
+X.Name = "X"
+X.Parent = Underline
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.Position = UDim2.new(0.805555582, 0, -32, 0)
+X.Size = UDim2.new(0, 35, 0, 28)
+X.Font = Enum.Font.Code
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextSize = 20.000
+X.TextStrokeTransparency = 0.000
+
+ScrollingFrame.Parent = MainBack
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ScrollingFrame.BackgroundTransparency = 0.500
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.144694537, 0)
+ScrollingFrame.Size = UDim2.new(0, 180, 0, 266)
+ScrollingFrame.BottomImage = "rbxassetid://0"
+ScrollingFrame.CanvasPosition = Vector2.new(0, 1064)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+ScrollingFrame.ScrollBarThickness = 5
+ScrollingFrame.TopImage = "rbxassetid://0"
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_2.Font = Enum.Font.Code
+TextLabel_2.Text = " 1 [fov, fieldofview]"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame.Parent = TextLabel_2
+Frame.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 1, 0)
+Frame.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_3.Font = Enum.Font.Code
+TextLabel_3.Text = " 2 [advertise]"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_2.Parent = TextLabel_3
+Frame_2.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_2.BackgroundTransparency = 0.500
+Frame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 1, 0)
+Frame_2.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_4.Font = Enum.Font.Code
+TextLabel_4.Text = " 3 [oldmap]"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_3.Parent = TextLabel_4
+Frame_3.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_3.BackgroundTransparency = 0.500
+Frame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = " 4 [serverhop, sh]"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_4.Parent = TextLabel_5
+Frame_4.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_4.BackgroundTransparency = 0.500
+Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 1, 0)
+Frame_4.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_6.Font = Enum.Font.Code
+TextLabel_6.Text = " 5 [walkspeed, ws]"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_5.Parent = TextLabel_6
+Frame_5.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_5.BackgroundTransparency = 0.500
+Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 1, 0)
+Frame_5.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_7.Font = Enum.Font.Code
+TextLabel_7.Text = " 6 [fs, flyspeed]"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_6.Parent = TextLabel_7
+Frame_6.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_6.BackgroundTransparency = 0.500
+Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 1, 0)
+Frame_6.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_8.Font = Enum.Font.Code
+TextLabel_8.Text = " 7 [sprintspeed, ss]"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_7.Parent = TextLabel_8
+Frame_7.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_7.BackgroundTransparency = 0.500
+Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 1, 0)
+Frame_7.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_9.Font = Enum.Font.Code
+TextLabel_9.Text = " 8 [crouchspeed cs]"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextStrokeTransparency = 0.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_8.Parent = TextLabel_9
+Frame_8.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_8.BackgroundTransparency = 0.500
+Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0, 0, 1, 0)
+Frame_8.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_10.Font = Enum.Font.Code
+TextLabel_10.Text = " 9 [jp, jumppower]"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextStrokeTransparency = 0.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_9.Parent = TextLabel_10
+Frame_9.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_9.BackgroundTransparency = 0.500
+Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 0, 1, 0)
+Frame_9.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_11.Font = Enum.Font.Code
+TextLabel_11.Text = " 10 [hh,hipheight]"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextStrokeTransparency = 0.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_10.Parent = TextLabel_11
+Frame_10.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_10.BackgroundTransparency = 0.500
+Frame_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0, 0, 1, 0)
+Frame_10.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_12.Font = Enum.Font.Code
+TextLabel_12.Text = " 11 [gravity, grav]"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextStrokeTransparency = 0.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_11.Parent = TextLabel_12
+Frame_11.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_11.BackgroundTransparency = 0.500
+Frame_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0, 0, 1, 0)
+Frame_11.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_13.Font = Enum.Font.Code
+TextLabel_13.Text = " 12 [nogh, antigh]"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextStrokeTransparency = 0.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_12.Parent = TextLabel_13
+Frame_12.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_12.BackgroundTransparency = 0.500
+Frame_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0, 0, 1, 0)
+Frame_12.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_14.Font = Enum.Font.Code
+TextLabel_14.Text = " 13 [alwaysgh, agh]"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextStrokeTransparency = 0.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_13.Parent = TextLabel_14
+Frame_13.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_13.BackgroundTransparency = 0.500
+Frame_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0, 0, 1, 0)
+Frame_13.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_15.Font = Enum.Font.Code
+TextLabel_15.Text = " 14 [doors]"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextStrokeTransparency = 0.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_14.Parent = TextLabel_15
+Frame_14.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_14.BackgroundTransparency = 0.500
+Frame_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0, 0, 1, 0)
+Frame_14.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_16.Font = Enum.Font.Code
+TextLabel_16.Text = " 15 [spam]"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextStrokeTransparency = 0.000
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_15.Parent = TextLabel_16
+Frame_15.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_15.BackgroundTransparency = 0.500
+Frame_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0, 0, 1, 0)
+Frame_15.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_17.Font = Enum.Font.Code
+TextLabel_17.Text = " 16 [spamdelay]"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextStrokeTransparency = 0.000
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_16.Parent = TextLabel_17
+Frame_16.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_16.BackgroundTransparency = 0.500
+Frame_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(0, 0, 1, 0)
+Frame_16.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_18.Font = Enum.Font.Code
+TextLabel_18.Text = " 17 [unspam]"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextStrokeTransparency = 0.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_17.Parent = TextLabel_18
+Frame_17.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_17.BackgroundTransparency = 0.500
+Frame_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_17.BorderSizePixel = 0
+Frame_17.Position = UDim2.new(0, 0, 1, 0)
+Frame_17.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_19.Font = Enum.Font.Code
+TextLabel_19.Text = " 19 [muteradios]"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextStrokeTransparency = 0.000
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_18.Parent = TextLabel_19
+Frame_18.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_18.BackgroundTransparency = 0.500
+Frame_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_18.BorderSizePixel = 0
+Frame_18.Position = UDim2.new(0, 0, 1, 0)
+Frame_18.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_20.Font = Enum.Font.Code
+TextLabel_20.Text = " 20 [rj, rejoin]"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextStrokeTransparency = 0.000
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_19.Parent = TextLabel_20
+Frame_19.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_19.BackgroundTransparency = 0.500
+Frame_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_19.BorderSizePixel = 0
+Frame_19.Position = UDim2.new(0, 0, 1, 0)
+Frame_19.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_21.Font = Enum.Font.Code
+TextLabel_21.Text = " 21 [reset, re]"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextStrokeTransparency = 0.000
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_20.Parent = TextLabel_21
+Frame_20.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_20.BackgroundTransparency = 0.500
+Frame_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_20.BorderSizePixel = 0
+Frame_20.Position = UDim2.new(0, 0, 1, 0)
+Frame_20.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_22.Font = Enum.Font.Code
+TextLabel_22.Text = " 22 [airwalk]"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextStrokeTransparency = 0.000
+TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_21.Parent = TextLabel_22
+Frame_21.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_21.BackgroundTransparency = 0.500
+Frame_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_21.BorderSizePixel = 0
+Frame_21.Position = UDim2.new(0, 0, 1, 0)
+Frame_21.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_23.Font = Enum.Font.Code
+TextLabel_23.Text = " 23 [removeseats,rseats]"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextStrokeTransparency = 0.000
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_22.Parent = TextLabel_23
+Frame_22.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_22.BackgroundTransparency = 0.500
+Frame_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_22.BorderSizePixel = 0
+Frame_22.Position = UDim2.new(0, 0, 1, 0)
+Frame_22.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_24.Parent = ScrollingFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_24.Font = Enum.Font.Code
+TextLabel_24.Text = " 24 [autoreset,autodie]"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextStrokeTransparency = 0.000
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_23.Parent = TextLabel_24
+Frame_23.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_23.BackgroundTransparency = 0.500
+Frame_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_23.BorderSizePixel = 0
+Frame_23.Position = UDim2.new(0, 0, 1, 0)
+Frame_23.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_25.Parent = ScrollingFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_25.Font = Enum.Font.Code
+TextLabel_25.Text = " 25 [noclip]"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextStrokeTransparency = 0.000
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_24.Parent = TextLabel_25
+Frame_24.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_24.BackgroundTransparency = 0.500
+Frame_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_24.BorderSizePixel = 0
+Frame_24.Position = UDim2.new(0, 0, 1, 0)
+Frame_24.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_26.Parent = ScrollingFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_26.Font = Enum.Font.Code
+TextLabel_26.Text = " 26 [camlock, cl]"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextStrokeTransparency = 0.000
+TextLabel_26.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_25.Parent = TextLabel_26
+Frame_25.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_25.BackgroundTransparency = 0.500
+Frame_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_25.BorderSizePixel = 0
+Frame_25.Position = UDim2.new(0, 0, 1, 0)
+Frame_25.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_27.Parent = ScrollingFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_27.Font = Enum.Font.Code
+TextLabel_27.Text = " 27 [uncl, uncamlock]"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextStrokeTransparency = 0.000
+TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_26.Parent = TextLabel_27
+Frame_26.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_26.BackgroundTransparency = 0.500
+Frame_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_26.BorderSizePixel = 0
+Frame_26.Position = UDim2.new(0, 0, 1, 0)
+Frame_26.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_28.Parent = ScrollingFrame
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_28.Font = Enum.Font.Code
+TextLabel_28.Text = " 28 [goto, teleport]"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextStrokeTransparency = 0.000
+TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_27.Parent = TextLabel_28
+Frame_27.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_27.BackgroundTransparency = 0.500
+Frame_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_27.BorderSizePixel = 0
+Frame_27.Position = UDim2.new(0, 0, 1, 0)
+Frame_27.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_29.Parent = ScrollingFrame
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_29.Font = Enum.Font.Code
+TextLabel_29.Text = " 29 [gunanim]"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextStrokeTransparency = 0.000
+TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_28.Parent = TextLabel_29
+Frame_28.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_28.BackgroundTransparency = 0.500
+Frame_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_28.BorderSizePixel = 0
+Frame_28.Position = UDim2.new(0, 0, 1, 0)
+Frame_28.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_30.Parent = ScrollingFrame
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_30.Font = Enum.Font.Code
+TextLabel_30.Text = " 30 [time, clocktime]"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextStrokeTransparency = 0.000
+TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_29.Parent = TextLabel_30
+Frame_29.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_29.BackgroundTransparency = 0.500
+Frame_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_29.BorderSizePixel = 0
+Frame_29.Position = UDim2.new(0, 0, 1, 0)
+Frame_29.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_31.Parent = ScrollingFrame
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_31.Font = Enum.Font.Code
+TextLabel_31.Text = " 31 [clpart, campart]"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 14.000
+TextLabel_31.TextStrokeTransparency = 0.000
+TextLabel_31.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_30.Parent = TextLabel_31
+Frame_30.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_30.BackgroundTransparency = 0.500
+Frame_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_30.BorderSizePixel = 0
+Frame_30.Position = UDim2.new(0, 0, 1, 0)
+Frame_30.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_32.Parent = ScrollingFrame
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_32.Font = Enum.Font.Code
+TextLabel_32.Text = " 32 [view, spy]"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 14.000
+TextLabel_32.TextStrokeTransparency = 0.000
+TextLabel_32.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_31.Parent = TextLabel_32
+Frame_31.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_31.BackgroundTransparency = 0.500
+Frame_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_31.BorderSizePixel = 0
+Frame_31.Position = UDim2.new(0, 0, 1, 0)
+Frame_31.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_33.Parent = ScrollingFrame
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_33.Font = Enum.Font.Code
+TextLabel_33.Text = " 33 [cam, cl, camlock]"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 14.000
+TextLabel_33.TextStrokeTransparency = 0.000
+TextLabel_33.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_32.Parent = TextLabel_33
+Frame_32.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_32.BackgroundTransparency = 0.500
+Frame_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_32.BorderSizePixel = 0
+Frame_32.Position = UDim2.new(0, 0, 1, 0)
+Frame_32.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_34.Parent = ScrollingFrame
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_34.Font = Enum.Font.Code
+TextLabel_34.Text = " 34 [place]"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextStrokeTransparency = 0.000
+TextLabel_34.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_33.Parent = TextLabel_34
+Frame_33.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_33.BackgroundTransparency = 0.500
+Frame_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_33.BorderSizePixel = 0
+Frame_33.Position = UDim2.new(0, 0, 1, 0)
+Frame_33.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_35.Parent = ScrollingFrame
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_35.Font = Enum.Font.Code
+TextLabel_35.Text = " 35 [blink, b,velocity]"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 14.000
+TextLabel_35.TextStrokeTransparency = 0.000
+TextLabel_35.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_34.Parent = TextLabel_35
+Frame_34.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_34.BackgroundTransparency = 0.500
+Frame_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_34.BorderSizePixel = 0
+Frame_34.Position = UDim2.new(0, 0, 1, 0)
+Frame_34.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_36.Parent = ScrollingFrame
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 1.000
+TextLabel_36.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_36.Font = Enum.Font.Code
+TextLabel_36.Text = " 36 [walkshoot,noslow]"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextSize = 14.000
+TextLabel_36.TextStrokeTransparency = 0.000
+TextLabel_36.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_35.Parent = TextLabel_36
+Frame_35.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_35.BackgroundTransparency = 0.500
+Frame_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_35.BorderSizePixel = 0
+Frame_35.Position = UDim2.new(0, 0, 1, 0)
+Frame_35.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_37.Parent = ScrollingFrame
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_37.Font = Enum.Font.Code
+TextLabel_37.Text = " 37 [annoy, looptp]"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextSize = 14.000
+TextLabel_37.TextStrokeTransparency = 0.000
+TextLabel_37.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_36.Parent = TextLabel_37
+Frame_36.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_36.BackgroundTransparency = 0.500
+Frame_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_36.BorderSizePixel = 0
+Frame_36.Position = UDim2.new(0, 0, 1, 0)
+Frame_36.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_38.Parent = ScrollingFrame
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_38.Font = Enum.Font.Code
+TextLabel_38.Text = " 38 [blinkspeed, bs]"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 14.000
+TextLabel_38.TextStrokeTransparency = 0.000
+TextLabel_38.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_37.Parent = TextLabel_38
+Frame_37.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_37.BackgroundTransparency = 0.500
+Frame_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_37.BorderSizePixel = 0
+Frame_37.Position = UDim2.new(0, 0, 1, 0)
+Frame_37.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_39.Parent = ScrollingFrame
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_39.Font = Enum.Font.Code
+TextLabel_39.Text = " 39 [triggerbot, tb]"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextSize = 14.000
+TextLabel_39.TextStrokeTransparency = 0.000
+TextLabel_39.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_38.Parent = TextLabel_39
+Frame_38.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_38.BackgroundTransparency = 0.500
+Frame_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_38.BorderSizePixel = 0
+Frame_38.Position = UDim2.new(0, 0, 1, 0)
+Frame_38.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_40.Parent = ScrollingFrame
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_40.Font = Enum.Font.Code
+TextLabel_40.Text = " 40 [antife, antikill]"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 14.000
+TextLabel_40.TextStrokeTransparency = 0.000
+TextLabel_40.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_39.Parent = TextLabel_40
+Frame_39.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_39.BackgroundTransparency = 0.500
+Frame_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_39.BorderSizePixel = 0
+Frame_39.Position = UDim2.new(0, 0, 1, 0)
+Frame_39.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_41.Parent = ScrollingFrame
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_41.Font = Enum.Font.Code
+TextLabel_41.Text = " 41 [fly]"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextSize = 14.000
+TextLabel_41.TextStrokeTransparency = 0.000
+TextLabel_41.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_40.Parent = TextLabel_41
+Frame_40.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_40.BackgroundTransparency = 0.500
+Frame_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_40.BorderSizePixel = 0
+Frame_40.Position = UDim2.new(0, 0, 1, 0)
+Frame_40.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_42.Parent = ScrollingFrame
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_42.Font = Enum.Font.Code
+TextLabel_42.Text = " 42 [infjump]"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextSize = 14.000
+TextLabel_42.TextStrokeTransparency = 0.000
+TextLabel_42.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_41.Parent = TextLabel_42
+Frame_41.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_41.BackgroundTransparency = 0.500
+Frame_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_41.BorderSizePixel = 0
+Frame_41.Position = UDim2.new(0, 0, 1, 0)
+Frame_41.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_43.Parent = ScrollingFrame
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_43.Font = Enum.Font.Code
+TextLabel_43.Text = " 43 [tpb, tpbypass]"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextSize = 14.000
+TextLabel_43.TextStrokeTransparency = 0.000
+TextLabel_43.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_42.Parent = TextLabel_43
+Frame_42.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_42.BackgroundTransparency = 0.500
+Frame_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_42.BorderSizePixel = 0
+Frame_42.Position = UDim2.new(0, 0, 1, 0)
+Frame_42.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_44.Parent = ScrollingFrame
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_44.Font = Enum.Font.Code
+TextLabel_44.Text = " 44 [aimtype]"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextSize = 14.000
+TextLabel_44.TextStrokeTransparency = 0.000
+TextLabel_44.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_43.Parent = TextLabel_44
+Frame_43.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_43.BackgroundTransparency = 0.500
+Frame_43.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_43.BorderSizePixel = 0
+Frame_43.Position = UDim2.new(0, 0, 1, 0)
+Frame_43.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_45.Parent = ScrollingFrame
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_45.Font = Enum.Font.Code
+TextLabel_45.Text = " 45 [aimvelocity, av]"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.TextSize = 14.000
+TextLabel_45.TextStrokeTransparency = 0.000
+TextLabel_45.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_44.Parent = TextLabel_45
+Frame_44.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_44.BackgroundTransparency = 0.500
+Frame_44.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_44.BorderSizePixel = 0
+Frame_44.Position = UDim2.new(0, 0, 1, 0)
+Frame_44.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_46.Parent = ScrollingFrame
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 1.000
+TextLabel_46.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_46.Font = Enum.Font.Code
+TextLabel_46.Text = " 46 [aimbotautoshoot]"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.TextSize = 14.000
+TextLabel_46.TextStrokeTransparency = 0.000
+TextLabel_46.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_45.Parent = TextLabel_46
+Frame_45.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_45.BackgroundTransparency = 0.500
+Frame_45.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_45.BorderSizePixel = 0
+Frame_45.Position = UDim2.new(0, 0, 1, 0)
+Frame_45.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_47.Parent = ScrollingFrame
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_47.Font = Enum.Font.Code
+TextLabel_47.Text = " 47 [clicktpkey, ctpkey]"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextSize = 14.000
+TextLabel_47.TextStrokeTransparency = 0.000
+TextLabel_47.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_46.Parent = TextLabel_47
+Frame_46.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_46.BackgroundTransparency = 0.500
+Frame_46.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_46.BorderSizePixel = 0
+Frame_46.Position = UDim2.new(0, 0, 1, 0)
+Frame_46.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_48.Parent = ScrollingFrame
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_48.Font = Enum.Font.Code
+TextLabel_48.Text = " 48 [esp, stalk]"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.TextSize = 14.000
+TextLabel_48.TextStrokeTransparency = 0.000
+TextLabel_48.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_47.Parent = TextLabel_48
+Frame_47.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_47.BackgroundTransparency = 0.500
+Frame_47.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_47.BorderSizePixel = 0
+Frame_47.Position = UDim2.new(0, 0, 1, 0)
+Frame_47.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_49.Parent = ScrollingFrame
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.BackgroundTransparency = 1.000
+TextLabel_49.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_49.Font = Enum.Font.Code
+TextLabel_49.Text = " 49 [unesp, unstalk]"
+TextLabel_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.TextSize = 14.000
+TextLabel_49.TextStrokeTransparency = 0.000
+TextLabel_49.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_48.Parent = TextLabel_49
+Frame_48.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_48.BackgroundTransparency = 0.500
+Frame_48.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_48.BorderSizePixel = 0
+Frame_48.Position = UDim2.new(0, 0, 1, 0)
+Frame_48.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_50.Parent = ScrollingFrame
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.BackgroundTransparency = 1.000
+TextLabel_50.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_50.Font = Enum.Font.Code
+TextLabel_50.Text = " 50 [xray]"
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.TextSize = 14.000
+TextLabel_50.TextStrokeTransparency = 0.000
+TextLabel_50.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_49.Parent = TextLabel_50
+Frame_49.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_49.BackgroundTransparency = 0.500
+Frame_49.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_49.BorderSizePixel = 0
+Frame_49.Position = UDim2.new(0, 0, 1, 0)
+Frame_49.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_51.Parent = ScrollingFrame
+TextLabel_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.BackgroundTransparency = 1.000
+TextLabel_51.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_51.Font = Enum.Font.Code
+TextLabel_51.Text = " 51 [check, inspect]"
+TextLabel_51.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.TextSize = 14.000
+TextLabel_51.TextStrokeTransparency = 0.000
+TextLabel_51.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_50.Parent = TextLabel_51
+Frame_50.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_50.BackgroundTransparency = 0.500
+Frame_50.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_50.BorderSizePixel = 0
+Frame_50.Position = UDim2.new(0, 0, 1, 0)
+Frame_50.Size = UDim2.new(0, 180, 0, 1)
+
+TextLabel_52.Parent = ScrollingFrame
+TextLabel_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.BackgroundTransparency = 1.000
+TextLabel_52.Size = UDim2.new(0, 180, 0, 25)
+TextLabel_52.Font = Enum.Font.Code
+TextLabel_52.Text = " 52 [cmds]"
+TextLabel_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.TextSize = 14.000
+TextLabel_52.TextStrokeTransparency = 0.000
+TextLabel_52.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_51.Parent = TextLabel_52
+Frame_51.BackgroundColor3 = Color3.fromRGB(158, 158, 158)
+Frame_51.BackgroundTransparency = 0.500
+Frame_51.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_51.BorderSizePixel = 0
+Frame_51.Position = UDim2.new(0, 0, 1, 0)
+Frame_51.Size = UDim2.new(0, 180, 0, 1)
+
+-- Scripts:
+
+local function BFQQA_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	local CommandsFrame = script.Parent.Parent.Parent.Parent
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		CommandsFrame.Visible = false
+	end)
+end
+coroutine.wrap(BFQQA_fake_script)()
+local function NKFEF_fake_script() -- MainBack.LocalScript 
+	local script = Instance.new('LocalScript', MainBack)
+
+	local s = script.Parent
+	s.Active = true
+	s.Selectable = true
+	s.Draggable = true
+end
+coroutine.wrap(NKFEF_fake_script)()
