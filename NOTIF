@@ -37,7 +37,7 @@ local function Shadow2px()
 	NewImage.Size = UDim2.fromScale(1, 1) + UDim2.fromOffset(30, 30);
 	NewImage.Position = -UDim2.fromOffset(15, 15);
 	NewImage.ImageColor3 = Color3.fromRGB(86,0,232);
-	NewImage.BackgroundTransparency = 0;
+	
 	return NewImage;
 end
 
