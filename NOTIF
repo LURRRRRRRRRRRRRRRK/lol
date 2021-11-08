@@ -45,7 +45,7 @@ local DescriptionPadding = 10;
 local InstructionObjects = {};
 local TweenTime = 1;
 local TweenStyle = Enum.EasingStyle.Sine;
-local TweenDirection = Enum.EasingDirection.Out;
+local TweenDirection = Enum.EasingDirection.In;
 
 local LastTick = tick();
 
