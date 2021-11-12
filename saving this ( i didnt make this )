@@ -330,6 +330,7 @@ function Library:CreateWindow(Config, Parent)
 				Toggle.Name = Name .. " T"
 				Toggle.Parent = Section.Container
 				Toggle.Title.Text = Name
+				Toggle.Title.TextColor3 = Color3.fromRGB(20,20,20)
 				Toggle.Size = UDim2.new(1,-10,0,Toggle.Title.TextBounds.Y + 5)
 				
 				table.insert(Library.ColorTable, Toggle.Toggle)
@@ -338,7 +339,9 @@ function Library:CreateWindow(Config, Parent)
 				local function SetState(State)
 					if State then
 						Toggle.Toggle.BackgroundColor3 = Config.Color
+						Toggle.Title.TextColor3 = Color3.fromRGB(40,40,40)
 					elseif not State then
+						Toggle.Title.TextColor3 = Color3.fromRGB(20,20,20)
 						Toggle.Toggle.BackgroundColor3 = Color3.fromRGB(50,50,50)
 					end
 					ToggleState = State
