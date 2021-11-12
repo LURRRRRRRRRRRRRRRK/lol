@@ -1,17 +1,10 @@
 --Settings--
-
---[[
-
-credits to kiriot for this esp its so sexy and i did not make it at fucking all lol
-
-]]
-
 local ESP = {
     Enabled = false,
     Boxes = true,
     BoxShift = CFrame.new(0,0,0),
 	BoxSize = Vector3.new(4,6,0),
-    Color = Color3.fromRGB(179, 168, 255),
+    Color = Color3.fromRGB(86,0,232),
     FaceCamera = false,
     Names = true,
     TeamColor = true,
