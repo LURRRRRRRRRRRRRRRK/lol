@@ -330,7 +330,7 @@ function Library:CreateWindow(Config, Parent)
 				Toggle.Name = Name .. " T"
 				Toggle.Parent = Section.Container
 				Toggle.Title.Text = Name
-				Toggle.Title.TextColor3 = Color3.fromRGB(20,20,20)
+				Toggle.Title.TextColor3 = Color3.fromRGB(60,60,60)
 				Toggle.Size = UDim2.new(1,-10,0,Toggle.Title.TextBounds.Y + 5)
 				
 				table.insert(Library.ColorTable, Toggle.Toggle)
@@ -339,9 +339,9 @@ function Library:CreateWindow(Config, Parent)
 				local function SetState(State)
 					if State then
 						Toggle.Toggle.BackgroundColor3 = Config.Color
-						Toggle.Title.TextColor3 = Color3.fromRGB(40,40,40)
+						Toggle.Title.TextColor3 = Color3.fromRGB(255,255,255)
 					elseif not State then
-						Toggle.Title.TextColor3 = Color3.fromRGB(20,20,20)
+						Toggle.Title.TextColor3 = Color3.fromRGB(60,60,60)
 						Toggle.Toggle.BackgroundColor3 = Color3.fromRGB(50,50,50)
 					end
 					ToggleState = State
@@ -402,7 +402,7 @@ function Library:CreateWindow(Config, Parent)
 
 					UserInputService.InputBegan:Connect(function(Input)
 						if WaitingForBind and Input.UserInputType == Enum.UserInputType.Keyboard then
-							if UserinputService:GetFocusedTextBox() then return end
+							if UserInputService:GetFocusedTextBox() then return end
 							local Key = tostring(Input.KeyCode):gsub("Enum.KeyCode.", "")
 							if not table.find(Blacklist, Key) then
 								Toggle.Keybind.Text = "[ " .. Key .. " ]"
