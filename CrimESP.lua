@@ -3,12 +3,12 @@ local ESP = {
 	Tracers = true,
     Boxes = true,
     ShowInfo = true,
-    UseTeamColor = false,
-	TeamColor = Color3.new(86,0,232),
-	EnemyColor = Color3.new(86,0,232),
+    UseTeamColor = true,
+	TeamColor = Color3.new(0, 1, 0),
+	EnemyColor = Color3.new(1, 0, 0),
     ShowTeam = true,
 	Info = {
-		
+		["Name"] = true,
 		["Health"] = true,
 		["Weapons"] = true,
 		["Distance"] = true
@@ -17,7 +17,8 @@ local ESP = {
     BoxShift = CFrame.new(0, -1.5, 0),
 	BoxSize = Vector3.new(4, 6, 0),
     Color = Color3.fromRGB(255, 255, 255),
-    FaceCamera = true, 
+    TargetPlayers = true,
+    FaceCamera = true, -- i changed last time
     Thickness = 1,
     AttachShift = 1,
     Objects = setmetatable({}, {__mode="kv"}),
@@ -175,7 +176,9 @@ function boxBase:Update()
         allow = false
     end
 	
-    
+    if self.Player and not ESP.TargetPlayers then
+        allow = false
+    end
 	
     if self.IsEnabled and (type(self.IsEnabled) == "string" and not ESP[self.IsEnabled] or type(self.IsEnabled) == "function" and not self:IsEnabled()) then
         allow = false
@@ -245,7 +248,7 @@ function boxBase:Update()
 			
 			if ESP.Info.Distance == true then
 				self.Components.Distance.Visible = true
-				self.Components.Distance.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
+				self.Components.Distance.Position = Vector2.new(TagPos.X, TagPos.Y - Offset) -- nwm czy nie usunąć -offset :thinking:
 				self.Components.Distance.Text = "["..math.floor((CurrentCamera.CFrame.p - cf.p).magnitude).."]"
 				self.Components.Distance.Color = color
 				Offset = Offset + 14
@@ -256,7 +259,7 @@ function boxBase:Update()
 			if ESP.Info.Weapons == true then
 				self.Components.Weapons.Visible = true
 				self.Components.Weapons.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
-				self.Components.Weapons.Text = "["..Char:FindFirstChild("Tool").Name.."]"
+				self.Components.Weapons.Text = "["..Char:FindFirstChildOfClass("Tool").."]"
 				self.Components.Weapons.Color = color
 				Offset = Offset + 14
 			else
@@ -274,7 +277,15 @@ function boxBase:Update()
 				self.Components.Health.Visible = false
 			end
 			
-			
+			if ESP.Info.Name == true then
+				self.Components.Name.Visible = true
+				self.Components.Name.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
+				self.Components.Name.Text = self.Name
+				self.Components.Name.Color = color
+				Offset = Offset + 14
+			else
+				self.Components.Name.Visible = false
+			end
         else
             self.Components.Name.Visible = false
 			self.Components.Health.Visible = false
@@ -336,7 +347,15 @@ function ESP:Add(obj, options)
         Visible = self.Enabled and self.Boxes
     })
 	
-
+    box.Components["Name"] = Draw("Text", {
+		Text = box.Name,
+		Color = box.Color,
+		Center = true,
+		Outline = true,
+        Size = 19,
+        Visible = self.Enabled and self.ShowInfo
+	})
+	
 	box.Components["Health"] = Draw("Text", {
 		Color = box.Color,
 		Center = true,
