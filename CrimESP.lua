@@ -17,7 +17,6 @@ local ESP = {
     BoxShift = CFrame.new(0, -1.5, 0),
 	BoxSize = Vector3.new(4, 6, 0),
     Color = Color3.fromRGB(255, 255, 255),
-    TargetPlayers = true,
     FaceCamera = true, 
     Thickness = 1,
     AttachShift = 1,
@@ -176,9 +175,7 @@ function boxBase:Update()
         allow = false
     end
 	
-    if self.Player and not ESP.TargetPlayers then
-        allow = false
-    end
+    
 	
     if self.IsEnabled and (type(self.IsEnabled) == "string" and not ESP[self.IsEnabled] or type(self.IsEnabled) == "function" and not self:IsEnabled()) then
         allow = false
