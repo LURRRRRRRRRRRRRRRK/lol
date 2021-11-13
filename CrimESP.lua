@@ -1,10 +1,9 @@
-
 local ESP = {
     Enabled = false,
 	Tracers = true,
     Boxes = true,
     ShowInfo = true,
-    UseTeamColor = true,
+    UseTeamColor = false,
 	TeamColor = Color3.new(86,0,232),
 	EnemyColor = Color3.new(86,0,232),
     ShowTeam = true,
