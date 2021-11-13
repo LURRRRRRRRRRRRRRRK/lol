@@ -4,8 +4,8 @@ local ESP = {
     Boxes = true,
     ShowInfo = true,
     UseTeamColor = true,
-	TeamColor = Color3.new(86,0,232),
-	EnemyColor = Color3.new(86,0,232),
+	TeamColor = Color3.fromRGB(86,0,232),
+	EnemyColor = Color3.fromRGB(86,0,232),
     ShowTeam = true,
 	Info = {
 		["Name"] = true,
@@ -16,9 +16,9 @@ local ESP = {
 	
     BoxShift = CFrame.new(0, -1.5, 0),
 	BoxSize = Vector3.new(4, 6, 0),
-    Color = Color3.fromRGB(255, 255, 255),
+    Color = Color3.fromRGB(86,0,232),
     TargetPlayers = true,
-    FaceCamera = true, -- i changed last time
+    FaceCamera = true, 
     Thickness = 1,
     AttachShift = 1,
     Objects = setmetatable({}, {__mode="kv"}),
