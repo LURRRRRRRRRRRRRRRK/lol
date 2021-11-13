@@ -4,7 +4,7 @@ local ESP = {
     Boxes = true,
     ShowInfo = true,
 	Names = true,
-    UseTeamColor = false,
+    
 	TeamColor = Color3.fromRGB(86,0,232),
 	EnemyColor = Color3.fromRGB(86,0,232),
     ShowTeam = true,
@@ -73,7 +73,7 @@ function ESP:GetColor(obj)
 	
     local p = self:GetPlrFromChar(obj)
 	
-	return p and (self.UseTeamColor and p.Team and p.Team.TeamColor.Color) or (p.Team and p.Team.TeamColor ~= LocalPlayer.Team.TeamColor and self.EnemyColor or self.TeamColor) -- self.Color
+
 end
 
 function ESP:GetPlrFromChar(char)
