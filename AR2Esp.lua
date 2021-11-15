@@ -260,7 +260,7 @@ function boxBase:Update()
 			if ESP.Info.Weapons == true then
 				self.Components.Weapons.Visible = true
 				self.Components.Weapons.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
-                if Char.Equipped:FindFirstChildOfClass("Model") then
+                if Char:FindFirstChild("Equipped") then
 				self.Components.Weapons.Text = "["..tostring(Char.Equipped:FindFirstChildOfClass("Model")).."]"
                 end
 				self.Components.Weapons.Color = color
