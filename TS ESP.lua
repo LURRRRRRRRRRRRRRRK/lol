@@ -4,7 +4,7 @@ local ESP = {
     Boxes = true,
     ShowInfo = true,
 	Names = true,
-  Ammo = true,
+  
     BoxColor = Color3.fromRGB(86,0,232),
 	TeamColor = Color3.fromRGB(86,0,232),
 	EnemyColor = Color3.fromRGB(86,0,232),
@@ -13,7 +13,8 @@ local ESP = {
 		["Name"] = true,
 		["Health"] = true,
 		["Weapons"] = true,
-		["Distance"] = true
+		["Distance"] = true,
+        ["Ammo"] = true,
 	},
 	
     BoxShift = CFrame.new(0, -1.5, 0),
