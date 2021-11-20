@@ -275,7 +275,7 @@ function boxBase:Update()
       if ESP.Info.Ammo == true then
 				self.Components.Ammo.Visible = true
 				self.Components.Ammo.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
-                if Char:FindFirstChildOfClass("Tool") then
+                if Char:FindFirstChildOfClass("Tool") and Char:FindFirstChildOfClass("Tool").Ammo then
 				self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
                 
 				self.Components.Ammo.Color = color
