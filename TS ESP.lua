@@ -6,8 +6,8 @@ local ESP = {
 	Names = true,
   
     BoxColor = Color3.fromRGB(86,0,232),
-	TeamColor = Color3.fromRGB(86,0,232),
-	EnemyColor = Color3.fromRGB(86,0,232),
+	TeamColor = Color3.fromRGB(255,255,255),
+	EnemyColor = Color3.fromRGB(255,255,255),
     ShowTeam = true,
 	Info = {
 		["Name"] = true,
@@ -19,7 +19,7 @@ local ESP = {
 	
     BoxShift = CFrame.new(0, -1.5, 0),
 	BoxSize = Vector3.new(4, 6, 0),
-    Color = Color3.fromRGB(86,0,232),
+    Color = Color3.fromRGB(255,255,255),
     TargetPlayers = true,
     FaceCamera = true, 
     Thickness = 1,
@@ -275,12 +275,14 @@ function boxBase:Update()
       if ESP.Info.Ammo == true then
 				self.Components.Ammo.Visible = true
 				self.Components.Ammo.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
-                if Char:FindFirstChildOfClass("Tool").Ammo then
-				self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
+                
                 
 				self.Components.Ammo.Color = color
 				Offset = Offset + 14
+                if Char:FindFirstChildOfClass("Tool").Ammo then
+                    self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
 			else
+                self.Components.Ammo.Text = ""
 				self.Components.Ammo.Visible = false
             end
 			end
