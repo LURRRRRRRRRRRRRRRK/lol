@@ -277,7 +277,7 @@ function boxBase:Update()
 
                 if Char:FindFirstChild("Glock") or Char:FindFirstChild("Shotty") or Char:FindFirstChild("Uzi") then
                     self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
-                    self.Components.Weapons.Color = color
+                    self.Components.Ammo.Color = color
 				    Offset = Offset + 14
 			else
 				self.Components.Ammo.Visible = false
