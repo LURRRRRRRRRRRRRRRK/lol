@@ -264,7 +264,6 @@ function boxBase:Update()
 				self.Components.Weapons.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
                 if Char:FindFirstChildOfClass("Tool") then
 				self.Components.Weapons.Text = "["..tostring(Char:FindFirstChildOfClass("Tool")).."]"
-                
 				self.Components.Weapons.Color = color
 				Offset = Offset + 14
 			else
@@ -275,14 +274,12 @@ function boxBase:Update()
       if ESP.Info.Ammo == true then
 				self.Components.Ammo.Visible = true
 				self.Components.Ammo.Position = Vector2.new(TagPos.X, TagPos.Y - Offset)
-                
-                
-				self.Components.Ammo.Color = color
-				Offset = Offset + 14
+
                 if Char:FindFirstChild("Glock") or Char:FindFirstChild("Shotty") or Char:FindFirstChild("Uzi") then
                     self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
+                    self.Components.Weapons.Color = color
+				    Offset = Offset + 14
 			else
-                
 				self.Components.Ammo.Visible = false
             end
 			end
