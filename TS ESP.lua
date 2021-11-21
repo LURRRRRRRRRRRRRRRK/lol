@@ -234,7 +234,7 @@ function boxBase:Update()
                 self.Components.Quad.PointB = Vector2.new(TopLeft.X, TopLeft.Y)
                 self.Components.Quad.PointC = Vector2.new(BottomLeft.X, BottomLeft.Y)
                 self.Components.Quad.PointD = Vector2.new(BottomRight.X, BottomRight.Y)
-                self.Components.Quad.Color = color
+                self.Components.Quad.Color = BoxColor
             else
                 self.Components.Quad.Visible = false
             end
@@ -282,7 +282,6 @@ function boxBase:Update()
                 if Char:FindFirstChild("Glock") or Char:FindFirstChild("Shotty") or Char:FindFirstChild("Uzi") then
                     self.Components.Ammo.Text = "Ammo ["..tostring(Char:FindFirstChildOfClass("Tool").Ammo.Value).."] ".."Clips [" ..tostring(Char:FindFirstChildOfClass("Tool").Clips.Value) .. "]"
 			else
-                self.Components.Ammo.Text = ""
 				self.Components.Ammo.Visible = false
             end
 			end
@@ -311,8 +310,9 @@ function boxBase:Update()
             self.Components.Name.Visible = false
 			self.Components.Health.Visible = false
 			self.Components.Weapons.Visible = false
-            self.Components.Distance.Visible = false
             self.Components.Ammo.Visible = false
+            self.Components.Distance.Visible = false
+            
         end
     else
         self.Components.Name.Visible = false
